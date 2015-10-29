@@ -1,0 +1,41 @@
+// Basic vars to quick styling
+
+// Prefixer
+@mixin vendor-prefix($name, $argument) {
+  -webkit-#{$name}: #{$argument};
+  -ms-#{$name}: #{$argument};
+  -moz-#{$name}: #{$argument};
+  -o-#{$name}: #{$argument};
+  #{$name}: #{$argument};
+}
+
+riotmui-list {
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+      cursor: pointer;
+      transition: background .2s;
+      &:hover {
+        background: #fff;
+        transition: all .2s;
+      }
+      a {
+        text-decoration: none;
+        color: #070726;
+        display: block;
+        height: 100%;
+        padding: 15px 0px 15px 20px;
+        font-size: 20px;
+      }
+      &.selected {
+        border-left: 4px solid #579ead;
+        a {
+          color: #579ead;
+        }
+      }
+    }
+  }
+}
+

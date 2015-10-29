@@ -1,0 +1,16 @@
+riotmui-option {
+  .option {
+    padding: 10px 0;
+    &-title {
+      font-weight: 700;
+    }
+    .type {
+      color: #8d9899;
+      text-transform: capitalize;
+    }
+    .default {
+      color: #414546;
+      margin-left: 20px;
+    }
+  }
+}

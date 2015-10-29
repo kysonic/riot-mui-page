@@ -1,0 +1,103 @@
+// Basic vars to quick styling
+$tablets: "only screen and (min-width : 768px) and (max-width : 1024px)";
+$phone: "only screen and (min-width : 320px) and (max-width : 480px)";
+$phone-large: "only screen and (min-width : 480px) and (max-width : 768px)";
+// Prefixer
+@mixin vendor-prefix($name, $argument) {
+  -webkit-#{$name}: #{$argument};
+  -ms-#{$name}: #{$argument};
+  -moz-#{$name}: #{$argument};
+  -o-#{$name}: #{$argument};
+  #{$name}: #{$argument};
+}
+
+riotmui-desc {
+  & >.content {
+    padding: 0 20px;
+    & > .title {
+      padding: 10px 0;
+      font-size: 28px;
+      color: #1c3b53;
+    }
+    material-card {
+      margin-top: 20px;
+      //min-height: 233px;
+      position: relative;
+      &:first-child {
+        margin-top: 0;
+      }
+      .title {
+        padding: 10px 20px;
+        font-size: 18px;
+        color: #61bdcc;
+        box-shadow: none;
+      }
+      .material-card-content {
+        padding: 10px 20px 20px 20px;
+        .button-container {
+          display: inline-block;
+          position: relative;
+          material-dropdown {
+            p {
+              padding: 20px 51px;
+            }
+          }
+        }
+      }
+    }
+    .riotmui-desc-description {
+      p {
+        display: block;
+        padding: 5px 5px;
+      }
+      .description-title {
+        padding: 10px 0px;
+        font-size: 20px;
+        color: #61bdcc;
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+@media #{$tablets} {
+  riotmui-desc {
+    & > .content {
+      padding: 0 5px;
+      .col-flex {
+        margin-top: 20px;
+        &:first-child {
+          margin-top: 0px;
+        }
+      }
+    }
+  }
+}
+
+@media #{$phone} {
+  riotmui-desc {
+    & > .content {
+      padding: 0 5px;
+      .col-flex {
+        margin-top: 20px;
+        &:first-child {
+          margin-top: 0px;
+        }
+      }
+    }
+  }
+}
+
+@media #{$phone-large} {
+  riotmui-desc {
+    & > .content {
+      .col-flex {
+        margin-top: 20px;
+        &:first-child {
+          margin-top: 0px;
+        }
+      }
+    }
+  }
+}
+

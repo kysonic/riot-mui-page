@@ -1,0 +1,17 @@
+/**Media**/
+// Smartphones
+$smartphones: "only screen and (min-width : 320px) and (max-width : 480px)";
+$smartphones-landscape: "only screen and (min-width : 321px)";
+$smartphones-portrait: "only screen and (max-width : 320px)";
+// iPads
+$ipads: "only screen and (min-device-width : 768px) and (max-device-width : 1024px)";
+$ipads-landscape: "only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)";
+$ipads-portrait: "only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)";
+// Desktops
+$desktops: "only screen and (min-width : 1224px)";
+$desktops-large: "only screen and (min-width : 1824px)";
+// Tablets
+$tablets: "only screen and (min-width : 768px) and (max-width : 1024px)";
+// Phones
+$phone: "only screen and (min-width : 320px) and (max-width : 480px)";
+$phone-large: "only screen and (min-width : 480px) and (max-width : 768px)";
