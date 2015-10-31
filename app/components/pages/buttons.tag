@@ -31,9 +31,9 @@ require('../material-elements/material-button/material-button.tag');
                 <material-card>
                     <div class="material-card-title">Custom Button</div>
                     <div class="material-card-content">
-                        <material-button class="ui" waves-color="#000" shady="true" style="background:#ed7ff4; height: 50px; line-height: 46px">
+                        <material-button class="ui" waves-color="#a355aa" shady="true" style="background:#ed7ff4; height: 50px; line-height: 46px">
+                            <i class="material-icons" style="font-size: 18px">favorite</i>
                             <div class="text">CREATE</div>
-                            <i class="material-icons">create</i>
                         </material-button>
                     </div>
                     <riotmui-code code="{{this.parent.parent.example3}}"></riotmui-code>

@@ -1,5 +1,5 @@
-require('./basic.tag');
-require('./home.tag');
+require('./components/layouts/basic-layout.tag');
+require('./components/layouts/home-layout.tag');
 <app>
     <basic-layout if="{{isHome}}" />
     <home-layout if="{{!isHome}}" />

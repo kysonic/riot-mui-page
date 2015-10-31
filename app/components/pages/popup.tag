@@ -20,7 +20,7 @@ require('../material-elements/material-button/material-button.tag');
                                 ego dico phasmatis audite meus placitum meus mens quod iacio (Nombre de la persona)</p>
                         </material-popup>
                     </div>
-                    <riotmui-code style="margin-top: 65px" code="{{this.parent.parent.example1}}"></riotmui-code>
+                    <riotmui-code style="margin-top: 66px" code="{{this.parent.parent.example1}}"></riotmui-code>
                 </material-card>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 col-flex">

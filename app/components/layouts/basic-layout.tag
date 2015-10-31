@@ -1,9 +1,9 @@
-require('./stylesheets/basic.scss');
-require('./components/material-elements/material-navbar/material-navbar.tag');
-require('./components/material-elements/material-pane/material-pane.tag');
-require('./components/material-elements/material-button/material-button.tag');
-require('./components/riotmui-elements/riotmui-list/riotmui-list.tag');
-require('./components/svg/github.tag');
+require('./basic-layout.scss');
+require('../material-elements/material-navbar/material-navbar.tag');
+require('../material-elements/material-pane/material-pane.tag');
+require('../material-elements/material-button/material-button.tag');
+require('../riotmui-elements/riotmui-list/riotmui-list.tag');
+require('../svg/github.tag');
 require('riot-router');
 <basic-layout>
     <material-navbar>

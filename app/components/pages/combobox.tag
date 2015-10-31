@@ -25,7 +25,7 @@ require('../material-elements/material-combo/material-combo.tag');
                     <div class="material-card-content">
                         <material-combo items="[{title:'One'},{title:'Two'}]"></material-combo>
                     </div>
-                    <riotmui-code style="margin-top: 83px" code="{{this.parent.parent.example2}}"></riotmui-code>
+                    <riotmui-code style="margin-top: 86px" code="{{this.parent.parent.example2}}"></riotmui-code>
                 </material-card>
             </div>
         </div>

@@ -2,10 +2,7 @@
 $tablets: "(min-width : 768px) and (max-width : 1024px)";
 $phone: "(min-width : 320px) and (max-width : 480px)";
 $phone-large: "(min-width : 480px) and (max-width : 768px)";
-.stop-scrolling {
-  height: 100%;
-  overflow: hidden;
-}
+
 home-layout {
   display: block;
   height: 100%;
@@ -24,6 +21,7 @@ home-layout {
   .icon-row {
     height: 67px;
   }
+  /** HEDAER **/
   material-navbar {
       height: 410px;
       &.footer {
@@ -90,16 +88,23 @@ home-layout {
         }
       }
   }
+  /** CONTENT **/
   & > .content {
     .wrapper {
-      max-width: 1100px;
-      width: 100%;
-      margin: 0 auto;
-      text-align: center;
+      .center {
+        max-width: 1100px;
+        width: 100%;
+        margin: 40px auto;
+        text-align: center;
+        &.p1 {
+          margin: 40px auto 60px auto;
+        }
+      }
       h1 {
         color: #61bdcc;
         font-size: 22px;
         font-weight: 100;
+        margin: 0;
       }
       h3 {
         color: #61bdcc;
@@ -119,6 +124,12 @@ home-layout {
       .checkout {
         margin: 80px 0;
         border: 1px solid #61bdcc;
+      }
+      .line {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #25313b;
       }
     }
   }

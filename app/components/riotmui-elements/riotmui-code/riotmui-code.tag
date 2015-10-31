@@ -1,14 +1,14 @@
 require('./riotmui-code.scss');
-var hljs = require('highlight.js');
+require('../../../stylesheets/rainbow-github.scss');
+require('../../../javascript/vendor/rainbow.js');
+require('../../../javascript/vendor/rainbow-html.js');
 <riotmui-code>
     <pre>
-        <code>
+        <code data-language="html">
             {{opts.code}}
         </code>
     </pre>
     <script type="es6">
-        this.on('mount', ()=> {
-            hljs.highlightBlock(this.root);
-        });
+        Rainbow.color();
     </script>
 </riotmui-code>

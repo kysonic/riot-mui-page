@@ -13,7 +13,7 @@ require('../material-elements/material-tabs/material-tabs.tag');
                     <div class="material-card-content">
                         <material-tabs tabs="[{title:'ONE'},{title:'TWO'}]"></material-tabs>
                     </div>
-                    <riotmui-code style="margin-top: 66px" code="{{this.parent.parent.example1}}"></riotmui-code>
+                    <riotmui-code style="margin-top: 49px" code="{{this.parent.parent.example1}}"></riotmui-code>
                 </material-card>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 col-flex">
