@@ -1,6 +1,6 @@
 {
   "name": "riotmui",
-  "version": "1.0.0",
+  "version": "0.0.15",
   "description": "0.0.1",
   "main": "index.js",
   "scripts": {
@@ -16,10 +16,14 @@
     "highlight.js": "^8.9.1",
     "node-sass": "^3.3.3",
     "riot": "^2.2.4",
+    "riot-router": "^0.7.3",
     "riotjs-loader": "^1.2.0",
     "sass-loader": "^3.0.0",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.2",
     "webpack-dev-server": "^1.12.1"
+  },
+  "dependencies": {
+    "webpack": "^1.12.9"
   }
 }
